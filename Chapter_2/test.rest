@@ -1,0 +1,19 @@
+### Test GET / 
+GET http://localhost:4000
+
+### Test GET /dashboard
+GET http://localhost:4000/dashboard
+
+### Test GET /displaydata
+GET http://localhost:4000/displaydata
+
+### DATA ENDPOINTS
+GET http://localhost:4000/api/data
+
+### DATA ENDPOINTS FOR ADDING A USER
+POST http://localhost:4000/api/data
+Content-Type: application/json
+
+{
+    "name": "Somchai"
+}
