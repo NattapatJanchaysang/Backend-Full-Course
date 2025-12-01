@@ -17,3 +17,6 @@ Content-Type: application/json
 {
     "name": "Somchai"
 }
+
+### DATA ENDPOINTS FOR DELETING A USER
+DELETE http://localhost:4000/api/data
